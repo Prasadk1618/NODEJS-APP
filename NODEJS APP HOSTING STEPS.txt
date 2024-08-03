@@ -1,0 +1,26 @@
+NODEJS APP HOSTING
+
+STEPS
+
+	1. update package manager.	
+	- SUDO YUM UPDATE -Y
+	2. install nodejs.
+	- SUDO YUM INSTALL NODEJS -Y
+	3.check the virsion.
+	- NPM -V
+	4. create directory.
+	- MKDIR MYNODEAPP
+	5. change directory.
+	- CD MYNODEAPP
+	6. create package.json & add the code.
+	- NANO PACKAGE.JS
+	7. create one page index.js & add the code.
+	- NANO INDEX.JS
+	8. install package manager.
+	- NPM INSTALL
+	9. start package manager.
+	- START NPM
+	10. npm background running.
+	- SUDO NPM INSTALL -G PM2(process manager)
+	11. start
+	- PM2 START INDEX.JS
